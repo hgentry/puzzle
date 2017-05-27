@@ -195,7 +195,7 @@ StandardGame = function(app) {
 					} else {
 						this.move(this.pieces[0],[[-1,0],[-1,0],[-1,0],[-1,0]]);
 						this.moveDelayRemaining = this.moveDelay;
-					}
+					} 
 				}
 			}
 				this.inputManager.resolveLeft();
